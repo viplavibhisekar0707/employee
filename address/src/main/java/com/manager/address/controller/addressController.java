@@ -21,6 +21,7 @@ public class addressController {
     @GetMapping("/addressinfo/{empID}")
     public List<String> addressInfoByEmpId(@PathVariable int empID){
         System.out.println("Testingggggg");
+          System.out.println("Testingggggg2");
         return addressService.getAddressDetails(empID) ;
 
 
