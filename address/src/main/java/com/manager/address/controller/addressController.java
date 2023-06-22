@@ -20,6 +20,7 @@ public class addressController {
 
     @GetMapping("/addressinfo/{empID}")
     public List<String> addressInfoByEmpId(@PathVariable int empID){
+        System.out.println("Testingggggg");
         return addressService.getAddressDetails(empID) ;
 
 
