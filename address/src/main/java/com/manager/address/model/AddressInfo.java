@@ -23,7 +23,7 @@ public class AddressInfo {
 @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String fullAddress;
-    private int empId;
+    private int empId ;
 
 
 
