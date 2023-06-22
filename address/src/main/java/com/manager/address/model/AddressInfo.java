@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 
 @Entity
-@Table(name = "AddressInfo")
+@Table(name = "Address-Info")
 public class AddressInfo {
 
 @Id
